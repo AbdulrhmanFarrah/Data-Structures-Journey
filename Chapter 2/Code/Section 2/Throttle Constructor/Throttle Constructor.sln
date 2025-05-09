@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Throttle Constructor", "Throttle Constructor.vcxproj", "{BECDEC7F-4F62-4C30-A9A1-3B8D49183B07}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BECDEC7F-4F62-4C30-A9A1-3B8D49183B07}.Debug|x64.ActiveCfg = Debug|x64
+		{BECDEC7F-4F62-4C30-A9A1-3B8D49183B07}.Debug|x64.Build.0 = Debug|x64
+		{BECDEC7F-4F62-4C30-A9A1-3B8D49183B07}.Debug|x86.ActiveCfg = Debug|Win32
+		{BECDEC7F-4F62-4C30-A9A1-3B8D49183B07}.Debug|x86.Build.0 = Debug|Win32
+		{BECDEC7F-4F62-4C30-A9A1-3B8D49183B07}.Release|x64.ActiveCfg = Release|x64
+		{BECDEC7F-4F62-4C30-A9A1-3B8D49183B07}.Release|x64.Build.0 = Release|x64
+		{BECDEC7F-4F62-4C30-A9A1-3B8D49183B07}.Release|x86.ActiveCfg = Release|Win32
+		{BECDEC7F-4F62-4C30-A9A1-3B8D49183B07}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A7A0CD2B-4747-4E2E-AEE1-1B0527C16C1E}
+	EndGlobalSection
+EndGlobal
