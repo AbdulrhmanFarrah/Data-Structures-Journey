@@ -1,8 +1,8 @@
 ## What is the Chapter 1 about?
 ### 1. Learning Objectives:
 
-- [ ] Writing precondition/postcondition contracts for small functions, and use the C++ assert facility to test preconditions.
-- [ ] Recognize quadratic, linear, and logarithmic running time behavior in simple algorithms, and write big-O expressions to describe this behavior.
+- [x] Writing precondition/postcondition contracts for small functions, and use the C++ assert facility to test preconditions.
+- [x] Recognize quadratic, linear, and logarithmic running time behavior in simple algorithms, and write big-O expressions to describe this behavior.
 - [ ]  Create and recognize test data that is appropriate for simple problems, including testing boundary conditions and fully exercising code.
 ### 2. Chapter Contents:
 
@@ -16,6 +16,8 @@
 #### Where we store these data?
 when we say a data structure **"stores data"**, we usually mean it stores data in **RAM** while the program is running.
 ### Why is Data Structure Important?
+
+> They help to manage and organize data.
 #### 1. **Efficiency**
 Different data structures solve problems in **different ways**, and some are much **faster** than others.
 #### 2. **Clean, Organized Code**
@@ -164,12 +166,10 @@ Each part should have a well-defined input/output and behavior.
 
 Functions or modules should be grouped based on related functionality.
 - **Why it's good**: Mirrors real-world concepts and business logic, making it more intuitive
-
+#### Book:
 
 > [!NOTE] Book
 > > When you are working on one component (ex: function), you should not worry about how the other components perform their jobs. But the components do interact. So when you are designing one component you need to know something about what the other components do. The trick is to ==**know only as much as you need, but no more.**== This is called **information hiding**. One technique for incorporating information hiding involves specifying your components' behavior using **preconditions and postconditions**. 
-
-
 
 ### Preconditions and Postconditions:
 
@@ -196,7 +196,7 @@ A **precondition** is a condition that must be true before a function is called 
 ### Small Notes On Implementations:
 1) Using declared constants rather than using the actual values directly in the program makes it easier to alter and change the program.
 2) When you use well-known formulas may be more easily recognized in their original form.
-3) During development components should be designed to help programmers find errors as easily ass possible (like printing a message if the precondition fails and either halts the entire program, or performs some other error actions before returning).
+3) During development components should be designed to help programmers find errors as easy as possible (like printing a message if the precondition fails and either halts the entire program, or performs some other error actions before returning).
 
 ## Notes 1.2 (Running Time Analysis):
 
