@@ -16,7 +16,7 @@ KeyedBag()
 postcondition: initialize the KeyedBag to be empty.
 #### MODIFICATION MEMBER functions for the KeyedBag class:
 ##### bool insert(const value_type& entry, const int& key)
-precondition: the key does not exist (in other words unique) inside the object.
+precondition: the bag is not full.
 postcondition: returns true and insert new entry if the key is unique otherwise returns false.
 ##### bool erase(const int& key)
 precondition: the key does exist inside the object.

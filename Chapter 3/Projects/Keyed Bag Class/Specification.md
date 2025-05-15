@@ -8,6 +8,10 @@ keyed bag class is a container class that has collection of items (by the user) 
 2) the key is integer
 3) the user can change the item's type before compilation ( by changing value_type )
 
+> [!NOTE] Idea of the class
+> the idea of the class is from the book I am reading.
+> I think that is the main idea of this class as ADT is make container I can't access its items
+> unless I know the key. 
 ## Functions that Manipulate the Object of the class:
 
 ### Constructors:
@@ -96,6 +100,4 @@ prototype: bool is_full() const;
 1) Capacity and it is equal to 30. -> the max size of the bag.
 
 
-## The Invariant of the Class
-1) the number of items inside the object is stored inside the member variable (used), 0 <= used <= CAPACITY.
-2) every key is unique, there is no duplicate of the same key.
+## 

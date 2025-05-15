@@ -1,0 +1,5 @@
+﻿  Implementation.cpp
+  Keyed Bag Project.cpp
+  Generating Code...
+C:\Users\LENOVO\Desktop\Data-Structures-Journey\Chapter 3\Projects\Keyed Bag Class\Keyed Bag Project\Implementation.cpp(104,1): warning C4715: 'Containers::KeyedBag::get_value': not all control paths return a value
+  Keyed Bag Project.vcxproj -> C:\Users\LENOVO\Desktop\Data-Structures-Journey\Chapter 3\Projects\Keyed Bag Class\Keyed Bag Project\x64\Debug\Keyed Bag Project.exe
